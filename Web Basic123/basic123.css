@@ -1,0 +1,149 @@
+body {
+    background-color: black;
+}
+
+.welcome h6{
+    background-color: darkgray;
+    color: beige;
+    margin: 0px;
+    padding: 12px 12px 12px 17px;
+    font-family: auto;
+    font-size: 16px;
+}
+
+.all {
+    display: flex;
+}
+
+.judul h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:darkgray;
+    padding-left: 20px;
+    margin-top: 22px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 0;
+    margin-right: 25px;
+}
+
+.judul a{
+    text-decoration: none;
+}
+
+
+.judul h2 {
+    color:darkgray;
+    margin-left: 20px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1;
+    margin-right: 25px;
+}
+.judul1 li {
+    list-style: none; 
+    color:darkgray;
+}
+
+.judul1 ul{
+    padding: 0px;
+}
+
+.judul1 li{
+    margin-left: 39px;
+}
+.judul1 a{
+    text-decoration: none;
+}
+
+.list {
+    display: flex;
+}
+
+.a1 {
+    background-image: url("img/latihan_front_end1.jpg");
+    background-repeat: unset;
+    background-position: center;
+    margin-bottom: -461px;
+    border-right: solid darkgray;
+}
+.a2 {
+    background-image: url("img/latihan_front_end1.jpg");
+    background-repeat: unset;
+    background-position: center;
+    margin-bottom: -461px;
+}
+
+.list h1{
+    color:gray;
+    margin-top: 35px; 
+    margin-left: 268px;
+    margin-right: 268px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 0px;
+}
+
+.list a{
+    color: darkgray;
+    text-decoration: none;
+    margin-left: 268px;
+    margin-right: 268px;
+    line-height: 0px;
+}
+.bawah{
+    margin-top: 465px;
+    line-height: 2;
+}
+
+.about h6{
+    color: beige;
+    text-align: center;
+    background-color: darkgray;
+    margin: 0;
+    margin-left: 118px;
+    font-size: 16px;
+    font-family: auto;
+}
+
+.sosmed{
+    background-color: darkgray;
+    text-align: center;
+    margin-left: 118px;
+}
+.sosmed img{
+    width: 40px;
+    margin: 7px;
+}
+
+.copy h6{
+    color: beige;
+    text-align: center;
+    background-color: darkgray;
+    margin: 0;
+    margin-left: 118px;
+    font-size: 16px;
+    font-family: auto;
+}
+
+/* ================================================ */
+
+.judul a:hover{
+    color: aqua;
+}
+
+.judul1 a:hover{
+    color: aqua;
+}
+.list a:hover{
+    color: aqua;
+}
+
+.list div.a1:hover{
+    /* text-align: center; */
+    background-image: url("img/cowo.jpg")
+}
+
+.list div.a2:hover{
+    /* text-align: center; */
+    background-image: url("img/cewe1.jpg")
+}

@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+section {
+    padding: 182px;
+    text-align: center;
+    background: black;
+}
+.logo {
+    display: inline-flex;
+    list-style: none;
+}
+
+.logo h2 {
+    color: white;
+    margin-top: 32px;
+    margin-left: 4px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.logo h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin: auto;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.login label {
+    color: white;
+}
+
+.login button {
+    padding: 3px 25px;
+}

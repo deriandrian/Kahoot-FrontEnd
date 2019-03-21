@@ -1,0 +1,159 @@
+header {
+    justify-content: space-between;
+    background-color: rgb(48, 75, 8);
+    display: flex;
+}
+
+.logo {
+    padding: 25px;
+    padding-left: 80px;
+    text-align: center;
+}
+
+.logo a  {
+    text-decoration: none;
+}
+
+.logo a :hover {
+    color: blue;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 36px;
+    line-height: 1;
+}
+
+
+.logo h2 {
+    color: white;
+    line-height: 0;
+
+ }
+.logo1 nav ul {
+    display: flex;
+    list-style: none;
+    margin: 30px 30px 30px  30px;
+    padding: 20px 40px 20px 40px;
+}
+
+.logo1 nav a {
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo1 nav li {
+    padding: 20px;
+    
+}
+
+.logo1 nav a:hover {
+    color: blue;
+}
+
+.text {
+    text-align: center;
+}
+
+.gallery{
+    padding-left: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.gambar img {
+    width: 350px;
+    height: 350px;
+}
+
+.gambar {
+    float: left;
+    padding: 10px
+
+}
+
+footer {
+    position: fixed;
+    width: 99%;
+    bottom: 1px;
+}
+
+.foot {
+    display: flex;
+    background: rgb(48, 75, 8);
+    padding: 5px;
+}
+
+.foot nav a {
+    display: flex;
+    text-decoration: none;
+}
+
+.foot img {
+    width: 30px;
+    height: 30px;
+}
+
+.foot ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.foot p{
+    margin: 7px;
+    color: white
+}
+/* ====================================================== */
+
+@media (max-width: 776px) {
+    
+    .logo h1 {
+        line-height: 0;
+    }
+    
+    
+    .logo h2 {
+        line-height: 1;
+    }
+
+    .logo1 {
+        line-height: 4;
+    }
+    .logo1 nav ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .logo1 nav li {
+        padding: 10px;
+    }
+@media (max-width: 600px) {
+    
+    header {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin: auto;
+        padding: 0;
+    }
+
+    .gallery {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .logo1 {
+        line-height: 2;
+        margin: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .gambar img {
+        width: 100%;
+    }
+    
+}
